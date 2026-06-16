@@ -1,0 +1,218 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(./assents/intro__bg.png);
+}
+
+.header__logos {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.header__btn1 {
+  transition: none;
+  height: 30px;
+  width: 204px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  background: none;
+}
+.header__btn2 {
+  transition: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  border: none;
+  border: 1px solid #ffffff;
+  background: none;
+}
+.header__btn3 {
+  transition: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  border: none;
+  border: 1px solid #ffffff;
+  background: none;
+}
+.intro__container {
+  background-image: url(./assents/intro__bg.png);
+
+  height: 900px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.intro__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  padding: 20px;
+  line-height: 72px;
+  color: black;
+}
+.intro__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 20px;
+  width: 445px;
+  color: black;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.intro__btn {
+  width: 186px;
+  height: 71px;
+  margin: 20px;
+  background: #ffffff;
+  border-radius: 40px;
+}
+.intro__btn2 {
+  display: flex;
+  padding: 23px 47px;
+  gap: 10px;
+  width: 228px;
+  height: 71px;
+
+  background: #ffffff;
+  border-radius: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+.header__btn {
+  padding: 20px;
+  border-radius: 100px;
+}
+.header__btn2 {
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.intro__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+}
+
+.Elik {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.Elik__1440 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.ff {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.logo__logo {
+  display: flex;
+}
+.logo__title {
+  width: 1162px;
+  height: 165px;
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  /* or 55px */
+
+  /* Black */
+  color: #181818;
+}
+.logo__h1 {
+  font-size: 60px;
+}
+.logo__box {
+  display: flex;
+  gap: 200px;
+}
+
+.logo__logo1 {
+  display: block;
+}
+.Elik__text11 {
+width: 396px;
+height: 180px;
+
+/* Desk — Body */
+font-family: '20 Kopeek';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+/* Black */
+color: #181818;
+
+
+}
+.card__1440 {
+  width: 100px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  
+  margin-top: 100px;
+  gap: 500px;
+}
+.card__card {
+  width: 400px;
+  height: 150px;
+}
+.logo__blur {
+  width: 400px;
+  background-color: blue;
+}
+
+.card__img {
+  justify-content: center;
+}
