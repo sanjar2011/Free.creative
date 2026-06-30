@@ -152,6 +152,7 @@ a {
 .logo__logo {
   display: flex;
 }
+
 .logo__title {
   width: 1162px;
   height: 165px;
@@ -177,42 +178,594 @@ a {
   display: block;
 }
 .Elik__text11 {
-width: 396px;
-height: 180px;
+  width: 396px;
+  height: 180px;
 
-/* Desk — Body */
+  /* Desk — Body */
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  /* Black */
+  color: #181818;
+}
+
+.card {
+  padding-top: 100px;
+}
+
+.card__1440 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text__left {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo__blur {
+  width: 400px;
+  background-color: blue;
+}
+.logo__blur2 {
+  /* Desk — Body */
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #ffffff;
+  background-color: blue;
+}
+.Elik__text112 {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  margin-top: 10px;
+}
+.card__1440 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.card__14400 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.card__card {
+  height: 100px;
+}
+.card__h1 {
+  margin-left: 710px;
+}
+.card__h2 {
+  margin-left: 260px;
+}
+.amperia {
+  margin-top: 100px;
+}
+.amperia__btn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 23px 47px;
+  gap: 10px;
+
+  width: 231px;
+  height: 71px;
+
+  /* Black */
+  border: 1px solid #181818;
+  border-radius: 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.amperia__img {
+  width: 1600px;
+}
+.amperia__dis {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+}
+.Elik__text1 {
+  width: 445px;
+  height: 400px;
+  left: 950px;
+  top: 1062px;
+
+  /* Desk — Body */
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+  /* Black */
+  color: #181818;
+}
+.btn {
+  /* Frame 5 */
+
+  /* Auto layout */
+  display: flex;
+  padding: 23px 47px;
+  margin-left: 635px;
+  margin-top: 60px;
+
+  color: #ffffff;
+  background: #2b59c3;
+  border-radius: 40px;
+}
+.E-mail {
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #181818;
+  border-radius: 10px;
+}
+.em {
+  display: flex;
+  gap: 20px;
+}
+.email__btn {
+  flex-direction: row;
+  padding: 23px 47px;
+  border: none;
+  color: #ffffff;
+  background: #2b59c3;
+  border-radius: 40px;
+}
+.email {
+  margin-top: 50px;
+}
+.ckeck {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.cl {
+  color: #2b59c3;
+}
+.stage {
+  margin-top: 50px;
+}
+.stage__box {
+  margin-top: 30px;
+  display: flex;
+  gap: 200px;
+}
+.stage__p1 {
+  height: 50px;
+}
+.stage__p2 {
+  width: 160px;
+  font-weight: 400;
+}
+.logo2 {
+  background: url(./assents/Rectangle\ 32.png);
+  color: #ffffff;
+  height: 900px;
+  background-repeat: no-repeat;
+}
+.logo__p3 {
+  width: 150px;
+}
+.logo__box2 {
+  display: flex;
+  gap: 200px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.logo__title1 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin: 50px;
+  color: #ffffff;
+  padding-top: 150px;
+}
+.connection {
+  margin-top: 30px;
+  display: flex;
+  gap: 150px;
+}
+.connection__text {
+  /* Rectangle 23 */
+
+  box-sizing: border-box;
+
+  width: 445px;
+  height: 50px;
+  left: 285px;
+  top: 10769px;
+
+  margin-top: 10px;
+  border: 1px solid #181818;
+  border-radius: 10px;
+}
+.connection__btn {
+  margin-top: 30px;
+  width: 200px;
+  border: none;
+  height: 60px;
+  color: #ffffff;
+  background: #2b59c3;
+  border-radius: 40px;
+}
+.finish {
+  margin-top: 30px;
+  display: flex;
+  gap: 100px;
+}
+.finish__box {
+  padding: 6px 80px 16px 13px;
+  color: #ffffff;
+  background: #2b59c3;
+  border-radius: 10px;
+}
+.finish__p {
+  width: 162px;
+}
+.finish__p2 {
+  padding-top: 25px;
+}
+.fio {
+  display: flex;
+  margin-top: 30px;
+}
+.fio__box1 {
+  height: 769px;
+}
+.fio__box2 {
+  height: 769px;
+}
+.fio__box3 {
+  height: 769px;
+}
+.fio__box4 {
+  height: 769px;
+}
+
+.fio__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fio__box1 {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  background: #2b59c3;
+  border-radius: 10px;
+}
+
+.fio__box2 {
+  width: 300px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.fio__box3 {
+  width: 300px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.fio__box4 {
+  width: 300px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fio__title {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #ffffff;
+}
+.fio__title2 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: gray;
+}
+  .end {
+    margin-top: 30px;
 font-family: '20 Kopeek';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 140%;
-/* or 25px */
+color: #181818;
+  }
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    width: 320px;
+  }
+  .header__container {
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    background-image: url(./assents/Rectangle\ 5\ \(2\).png);
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__text {
+    width: 100px;
+  }
+  .ff {
+    margin-left: 0;
+    margin-top: 100px;
+    width: 300px;
+  }
+  .email__title {
+    width: 320px;
+  }
+  .email__text {
+    width: 320px;
+  }
+  .email__btn {
+    margin-top: 10px;
+  }
+  .cl {
+    width: 200px;
+  }
+  .connection__text {
+    width: 300px;
+  }
+  .Elik__img {
+    width: 300px;
+    height: 200px;
+    display: block;
+  }
+  .Elik__text11 {
+    width: 300px;
+  }
+  .card__card {
+    width: 300px;
+    margin-top: 10px;
+  }
+  .logo__blur {
+    width: 300px;
+  }
+  .Elik {
+    display: block;
+  }
+  .Elik__text1 {
+    width: 275px;
+  }
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .intro {
+    width: 320px;
+  }
+  .intro__container {
+    background-image: url(./assents/Rectangle\ 5\ \(2\).png);
+
+    height: 640px;
+    width: 320px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .intro__title {
+    width: 240px;
+
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    /* or 33px */
+
+    /* White */
+    color: #ffffff;
+  }
+  .intro__text {
+    width: 350px;
+  }
+  .intro__buttons {
+    display: block;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+  }
+  .logo__title {
+    width: 290px;
+    height: 282px;
+    left: 35px;
+    margin-top: 230px;
+
+    /* Mob — H1 */
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    /* or 35px */
+
+    /* Black */
+    color: #181818;
+  }
+  .logo__box {
+    display: block;
+  }
+  .logo__p2 {
+    width: 300px;
+  }
+  .logo__blur2 {
+    width: 300px;
+  }
+  .Elik__text112 {
+    width: 300px;
+  }
+  .card__img {
+    display: block;
+    width: 300px;
+  }
+  .card {
+    width: 300px;
+  }
+  .card__14400 {
+    display: block;
+
+  }
+  .logo__blur2 {
+    margin-top: 25px;
+  }
+  .card__h2 {
+    margin-left: 5px;
+  }
+
+  .card__1440 {
+    flex-direction: column-reverse;
+    width: 300px;
+  }
+  .card__h1 {
+    margin-left: 5px;
+    width: 200px;
+  }
+  .amperia__img {
+    width: 300px;
+  }
+  .amperia__dis {
+
+    display: block;
+    flex-direction: column-reverse;
+  }
+  .amperia__btn {
+    /* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 23px 47px;
+gap: 10px;
+width: 231px;
+height: 50px;
+left: 35px;
+top: 3399px;
 
 /* Black */
-color: #181818;
+border: 1px solid #181818;
+border-radius: 40px;
 
+  }
+  .btn {
+    /* Frame 11 */
 
-}
-.card__1440 {
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 23px 47px;
+gap: 10px;
+width: 214px;
+height: 61px;
+left: 73px;
+top: 4757px;
+
+/* Blue */
+background: #2B59C3;
+border-radius: 40px;
+margin-left: 80px;
+  }
+  .text__left {
+    width: 320px;
+  }
+  .E-mail {
+    display: block;
+  }
+  .azamat {
+    flex-direction: column-reverse;
+  }
+  .stage__box {
+    width: 300px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .stage__p1 {
+  height: 50px;
   width: 100px;
 }
+.stage__boxp {
+  width: 100px;
+}
+.stage__box1 {
+  width: 100%;
+}
+.stage__p2 {
+  width: 110px;
+  font-weight: 400;
+}
+  .stage__box1 {
+    display: block;
+    
+  }
+  .connection {
+    display: block;
+  }
+  .onnection__boxpp {
+    flex-direction: column-reverse;
+  }
+  .finish {
+    display: block;
 
-.card {
-  display: flex;
-  align-items: center;
-  
-  margin-top: 100px;
-  gap: 500px;
-}
-.card__card {
-  width: 400px;
-  height: 150px;
-}
-.logo__blur {
-  width: 400px;
-  background-color: blue;
-}
-
-.card__img {
-  justify-content: center;
+  }
+  .finish__box {
+    margin-top: 30px;
+    width: 300px;
+  }
+  .logo2 {
+    display: none;
+  }
+  .fio {
+    display: none;
+  }
+  .connection__1 {
+    margin-top: 10px;
+  }
 }
