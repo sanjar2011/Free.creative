@@ -435,6 +435,9 @@ a {
 .fio__box3 {
   height: 769px;
 }
+.finish1 {
+  margin-top: 30px;
+}
 .fio__box4 {
   height: 769px;
 }
@@ -443,6 +446,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .fio__box1 {
@@ -569,6 +573,13 @@ color: #181818;
   .intro {
     width: 320px;
   }
+  .intro__btn {
+    width: 200px;
+    margin: 7px;
+  }
+  .intro__btn2 {
+    width: 170px;
+  }
   .intro__container {
     background-image: url(./assents/Rectangle\ 5\ \(2\).png);
 
@@ -635,7 +646,7 @@ color: #181818;
     
   }
   .i-prn {
-    width: 100px;
+    width: 270px;
   }
   .logo__h1 {
     display: flex;
