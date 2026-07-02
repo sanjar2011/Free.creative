@@ -161,9 +161,6 @@ a {
   font-weight: 400;
   font-size: 55px;
   line-height: 100%;
-  /* or 55px */
-
-  /* Black */
   color: #181818;
 }
 .logo__h1 {
@@ -174,9 +171,6 @@ a {
   gap: 200px;
 }
 
-.logo__logo1 {
-  display: block;
-}
 .Elik__text11 {
   width: 396px;
   height: 180px;
@@ -261,7 +255,6 @@ a {
   box-sizing: border-box;
 
   /* Auto layout */
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 23px 47px;
@@ -273,8 +266,8 @@ a {
   /* Black */
   border: 1px solid #181818;
   border-radius: 40px;
-
-  /* Inside auto layout */
+  margin-top: -70px;
+  margin-left: 223px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -283,9 +276,6 @@ a {
   width: 1600px;
 }
 .amperia__dis {
-  margin-top: 50px;
-  display: flex;
-  gap: 100px;
 }
 .Elik__text1 {
   width: 445px;
@@ -602,7 +592,7 @@ color: #181818;
     color: #ffffff;
   }
   .intro__text {
-    width: 350px;
+    width: 320px;
   }
   .intro__buttons {
     display: block;
@@ -642,6 +632,13 @@ color: #181818;
   .card__img {
     display: block;
     width: 300px;
+    
+  }
+  .i-prn {
+    width: 100px;
+  }
+  .logo__h1 {
+    display: flex;
   }
   .card {
     width: 300px;
@@ -673,13 +670,15 @@ color: #181818;
     display: block;
     flex-direction: column-reverse;
   }
+  .amperia__bottom {
+    
+  }
   .amperia__btn {
     /* Frame 5 */
 
 box-sizing: border-box;
-
-/* Auto layout */
-display: flex;
+margin-top: 10px;
+margin-left: 0;
 flex-direction: row;
 align-items: center;
 padding: 23px 47px;
@@ -694,6 +693,16 @@ border: 1px solid #181818;
 border-radius: 40px;
 
   }
+  .logo__p {
+    width: 200px;
+    display: flex;
+    gap: 10px;
+  }
+  .logo__logo1{
+    width: 300px;
+    gap: 10px;
+    display: flex;
+  }
   .btn {
     /* Frame 11 */
 
@@ -703,7 +712,7 @@ flex-direction: row;
 align-items: center;
 padding: 23px 47px;
 gap: 10px;
-width: 214px;
+width: 187px;
 height: 61px;
 left: 73px;
 top: 4757px;
