@@ -569,6 +569,8 @@ color: #181818;
   .container {
     width: 320px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
   .intro {
     width: 320px;
@@ -630,6 +632,7 @@ color: #181818;
   }
   .logo__box {
     display: block;
+    margin-top: 30px;
   }
   .logo__p2 {
     width: 300px;
@@ -735,6 +738,7 @@ margin-left: 80px;
   }
   .text__left {
     width: 320px;
+    gap: 20px;
   }
   .E-mail {
     display: block;
