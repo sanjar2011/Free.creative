@@ -513,18 +513,21 @@ a {
   color: #181818;
 }
 @media (min-width: 320px) and (max-width: 480px) {
+
+  .container {
+    width: 290px;
+  }
   .header {
-    width: 320px;
     align-items: center;
     justify-content: center;
   }
   .header__container {
-    margin-left: 600px;
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
-    background-position: top center;
+    top: 0%;
+    left: 6%;
   }
   .header__nav {
     display: none;
