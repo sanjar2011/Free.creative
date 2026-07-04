@@ -531,6 +531,7 @@ a {
   }
   .header__text {
     width: 100px;
+    color: #ffffff;
   }
   .ff {
     margin-left: 0;
@@ -614,6 +615,7 @@ a {
   }
   .intro__text {
     width: 320px;
+    color: #ffffff;
   }
   .intro__buttons {
     display: block;
@@ -625,7 +627,7 @@ a {
     width: 290px;
     height: 282px;
     left: 35px;
-    margin-top: 230px;
+    margin-top: 330px;
 
     /* Mob — H1 */
     font-family: "20 Kopeek Book";
