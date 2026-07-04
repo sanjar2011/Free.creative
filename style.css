@@ -576,7 +576,7 @@ a {
     width: 275px;
   }
   .container {
-    width: 320px;
+    width: 350px;
     margin: 0 auto;
   }
   .intro {
@@ -715,11 +715,11 @@ a {
   .logo__p {
     width: 200px;
     display: flex;
-    gap: 10px;
+    gap: 40px;
   }
   .logo__logo1 {
     width: 300px;
-    gap: 10px;
+    gap: 40px;
     display: flex;
   }
   .btn {
@@ -741,7 +741,7 @@ a {
   }
   .text__left {
     width: 320px;
-    gap: 40px;
+    gap: 50px;
   }
   .E-mail {
     display: block;
