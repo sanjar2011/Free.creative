@@ -81,12 +81,14 @@
 }
 .intro__btn {
   width: 186px;
+  border: none;
   height: 71px;
   margin: 20px;
   background: #ffffff;
   border-radius: 40px;
 }
 .intro__btn2 {
+  border: none;
   display: flex;
   padding: 23px 47px;
   gap: 10px;
@@ -118,10 +120,12 @@ a {
 }
 .header__btn {
   padding: 20px;
+  border: none;
   border-radius: 100px;
 }
 .header__btn2 {
   padding: 20px;
+  border: none;
   border-radius: 50px;
 }
 
@@ -129,6 +133,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: start;
+  border: none;
   gap: 30px;
 }
 
@@ -254,8 +259,7 @@ a {
 }
 .amperia__btn {
   box-sizing: border-box;
-
-  /* Auto layout */
+  border: none;
   flex-direction: row;
   align-items: center;
   padding: 23px 47px;
@@ -296,8 +300,7 @@ a {
   color: #181818;
 }
 .btn {
-  /* Frame 5 */
-
+  border: none;
   /* Auto layout */
   display: flex;
   padding: 23px 47px;
@@ -325,6 +328,7 @@ a {
   color: #ffffff;
   background: #2b59c3;
   border-radius: 40px;
+  border: none;
 }
 .email {
   margin-top: 50px;
@@ -520,6 +524,7 @@ a {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
+    background-position: top center;
   }
   .header__nav {
     display: none;
@@ -540,6 +545,7 @@ a {
   }
   .email__btn {
     margin-top: 10px;
+    border: none;
   }
   .cl {
     width: 200px;
@@ -578,9 +584,11 @@ a {
   .intro__btn {
     width: 200px;
     margin: 7px;
+    border: none;
   }
   .intro__btn2 {
     width: 170px;
+    border: none;
   }
   .intro__container {
     background-image: url(./assents/Rectangle\ 5\ \(2\).png);
@@ -685,7 +693,7 @@ a {
   }
   .amperia__btn {
     /* Frame 5 */
-
+    border: none;
     box-sizing: border-box;
     margin-top: 10px;
     margin-left: 0;
@@ -713,9 +721,7 @@ a {
     display: flex;
   }
   .btn {
-    /* Frame 11 */
-
-    /* Auto layout */
+    border: none;
     display: flex;
     flex-direction: row;
     align-items: center;
